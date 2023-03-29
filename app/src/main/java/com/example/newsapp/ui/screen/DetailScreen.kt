@@ -20,6 +20,7 @@ fun DetailScreen(navController: NavController) {
     ) {
         Text(text = "Detail Screen", fontWeight = FontWeight.SemiBold)
         Button(onClick = {
+            // added back stack navigation
             //navController.navigate("TopNews")
             navController.popBackStack()
         }) {
