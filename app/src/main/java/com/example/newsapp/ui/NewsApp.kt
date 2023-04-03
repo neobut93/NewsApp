@@ -5,7 +5,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.newsapp.ui.screen.DetailScreen
-import com.example.newsapp.ui.screen.TopNews
+import eu.tutorials.newsapp.ui.screen.TopNews
 
 @Composable
 fun NewsApp() {
